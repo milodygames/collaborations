@@ -1,0 +1,4 @@
+jdk:
+  -openjdk17
+install: 
+    mvn install:install-file -Dfile=collaboration.aar -DgroupId=com.milodygames.sdk -DartifactId=Milody -Dversion=1.0.0 -Dpackaging=aar -DgeneratePom=true -DinteractiveMode=true 
